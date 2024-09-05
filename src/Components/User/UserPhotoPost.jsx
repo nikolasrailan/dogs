@@ -19,7 +19,7 @@ const UserPhotoPost = () => {
   React.useEffect(() => {
     if (data) navigate("/conta");
   }, [data, navigate]);
-  o;
+
   function handleSubmit(event) {
     event.preventDefault();
     const formData = new FormData();
